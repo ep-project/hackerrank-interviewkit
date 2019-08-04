@@ -13,8 +13,6 @@ public class Merchant {
             }
             i++;
         }
-
         return pairs;
-
     }
    }
