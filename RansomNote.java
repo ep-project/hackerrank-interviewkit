@@ -1,4 +1,4 @@
-//the code seems long but the complexity if actually O(m+n) which is the best we can do (I assume)
+//the code seems long but the complexity is actually O(m+n) which is the best we can do (I assume)
 
 // Complete the checkMagazine function below.
     static void checkMagazine(String[] magazine, String[] note) {
