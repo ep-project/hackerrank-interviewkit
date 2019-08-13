@@ -1,4 +1,5 @@
-// Complete the isBalanced function below.
+// This problem can easily be solved using stack data structure
+
     static String isBalanced(String s) {
 
         LinkedList<Character> stack = new LinkedList<>();
@@ -17,12 +18,11 @@
                 size--;
             }
             else{//push
-                stack.add(0, c);
+                stack.add(0, c);//By pushing elements to list head (stack top), we can pop them in O(1), keeping the overral complexity at O(n)
                 size++;
             }
         }
 
         if(size==0) return "YES";
-
         return "NO";
     }
